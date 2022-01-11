@@ -1,0 +1,10 @@
+
+==> select * from Superviseur;
+
+==> select * from Clients;
+
+==> select * from Motos
+
+==> select nom,prenom,tel,marque,type from Clients, Motos where Clients.id=Motos.id;
+
+==> select * from Clients INNER JOIN Motos on Clients.id = Motos.id;
